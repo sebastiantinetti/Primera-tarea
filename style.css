@@ -1,13 +1,41 @@
 body{
     background-color: darkred;
 }
-h1{
+h1{ 
+  
     font-style: oblique;
     text-align: center;
+    font-size: 100px;
 }
 h2{
     color: blueviolet;
+     font-size: 50px;
 }
 .img2 {
     width: 484px;
+}
+p{ font-size: 30px;
+
+}
+ol{ color: rgb(5, 5, 5);
+         width: 400px;
+    padding: 60px;
+        font-size: 30px;
+}
+.caja{ 
+        color: rgb(5, 5, 5);
+         width: 400px;
+    padding: 60px;
+    border: 50px solid rgb(129, 128, 42);
+    margin: 0 auto;
+    background-color: rgb(80, 199, 106);
+}
+.villa{
+    
+    color: rgb(5, 5, 5);
+         width: 400px;
+    padding: 60px;
+    border: 50px solid rgb(80, 199, 106);
+    margin: 0 auto;
+    background-color: rgb(129, 128, 42);
 }
