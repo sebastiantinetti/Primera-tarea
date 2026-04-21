@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+h1 {
+    font-family: 'Bahianita', cursive;
+    font-size: 40px;
+    color: #00ffcc;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00ffcc;
+}
+
+.buscador input {
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero-texto h2 {
+    font-family: 'Bahianita', cursive;
+    font-size: 50px;
+    color: #ff0055;
+}
+
+.hero-texto p {
+    font-size: 18px;
+}
+
+.hero-imgs img {
+    border-radius: 10px;
+}
+
+.img1 {
+    width: 250px;
+}
+
+.img2 {
+    width: 200px;
+}
+.img3 {
+    width: 250px;
+
+}
+.img4 {
+    width: 250px;
+
+}
+
+.servicios {
+    text-align: center;
+    padding: 40px;
+    }
+
+.servicios p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: #00ffcc;
+    color: black;
+}
+
+.lista {
+    text-align: center;
+    padding: 30px;
+}
+
+.lista ol {
+    list-style: none;
+    padding: 0;
+}
+
+.lista li {
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
